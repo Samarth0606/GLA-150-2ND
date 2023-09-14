@@ -1,0 +1,20 @@
+/* ---------desc.------- */
+/* div ul h1{} */
+/* div>ul>h1{
+    color: red;
+} */
+
+/* -------child-------- */
+/* div > ul > h1 + li{
+    color: red;
+} */
+
+/* ------adj--------- */
+/* div  ul > h1 + li{
+    color: red;
+} */
+
+/* -----gen----- */
+/* div  ul > h1 ~ li{
+    color: red;
+} */
