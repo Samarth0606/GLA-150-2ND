@@ -1,0 +1,19 @@
+h1::after{
+    content: " lets study";
+}
+
+h1::before{
+    /* content: "light kahan hai"; */
+    content: '\1F494';
+}
+
+p::first-line{
+    background-color: rgb(55, 150, 234);
+    text-transform: uppercase;
+}
+
+p::first-letter{
+    color: yellow;
+    font-size: 60px;
+}
+

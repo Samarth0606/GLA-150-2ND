@@ -1,0 +1,25 @@
+/* ul>li{ */
+    /* font-size: 200%; */
+    /* font-size: 2em; */
+    /* font-size: 2rem; */
+/* } */
+
+/* section{
+    width: 700px;
+    background-color: rgb(203, 122, 16);
+}
+
+div{
+    width: 50%;
+    background-color: aquamarine;
+} */
+
+section{
+    width: 50vw;
+    height: 50vh;
+    background-color: darkblue;
+}
+
+
+
+

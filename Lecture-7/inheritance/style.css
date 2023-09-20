@@ -1,0 +1,6 @@
+ul>li{
+    color: red;
+    font-size: 25px;
+    border-top: 2px solid green;
+    /* background-color: blue; */
+}
