@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    border: 20px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px;
+    display: inline-block;
+}
+div{
+    border: 20px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 100px;
+
+    /* visibility: hidden; */
+    display: none;
+
+}

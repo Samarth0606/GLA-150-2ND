@@ -1,0 +1,16 @@
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+section{
+    border: 1px solid green;
+}
+
+#static  #middle{
+    position: static;
+    top: 100px;
+    left: 100px;
+}
