@@ -1,0 +1,50 @@
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+section{
+    border: 1px solid green;
+}
+
+#static  #middle{
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+
+#relative #middle{
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+}
+
+#absolute{
+    position: relative;
+}
+
+#absolute #middle{
+    position: absolute;
+    /* top: 100px; */
+}
+
+#fixed{
+    position: relative;
+}
+
+#fixed #middle{
+    /* position: fixed; */
+    /* top: 0px; */
+}
+
+#sticky{
+    height: 600px;
+}
+
+#sticky #middle{
+    position: sticky;
+    top: 100px;
+}
