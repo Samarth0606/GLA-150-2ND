@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 2s ;
+    /* transition-property: background-color; */
+    transition-property: border-radius background-color;
+}
+
+.box:hover{
+    border-radius: 50% ;
+    background-color: blue;
+}

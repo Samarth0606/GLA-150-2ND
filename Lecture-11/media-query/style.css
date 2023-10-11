@@ -1,0 +1,70 @@
+h1{
+    color: red;
+}
+div{
+    width: 600px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+/* @media print and (width:500px) { */
+/* @media screen and (max-width:500px) {
+    h1{
+        color: green;
+    }
+    p{
+        font-size:40px ;
+    }
+} */
+
+
+/* ------------ */
+/* @media screen and (orientation:landscape) {
+    h1{
+        background-color: rgb(0, 17, 128);
+    }
+} */
+
+/* @media screen and (orientation:portrait) {
+    h1{
+        background-color: rgb(0, 128, 30);
+    }
+} */
+
+
+/* ----------------- */
+/* @media screen and (orientation:landscape) , (min-width:500px) {
+    h1{
+        background-color: rgb(223, 14, 185);
+    }
+} */
+
+
+/* ----------------------- */
+
+
+
+
+
+
+/* @media screen and (max-width: 992px) {
+    h1{
+        background-color: rgb(239, 228, 15);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        background-color: rgb(255, 80, 220);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1{
+        background-color: coral;
+    }
+} */
+
+/* --- hack ----- */
+/* max likhte hue -> badi value upar */
+/* min likhte hue -> choti value upar */
