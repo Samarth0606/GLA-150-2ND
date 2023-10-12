@@ -1,0 +1,42 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(203, 152, 89);
+     
+    animation-name: something;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 3;
+    /* animation-direction: normal; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: paused;
+}
+.box:hover{
+    animation-play-state: running;
+}
+
+
+/* @keyframes something {
+    from{
+        height: 100px;
+    }
+    to{
+        height: 500px;
+    }
+} */
+
+/* ------------- */
+@keyframes something {
+    0%{
+        height: 100px;
+    }
+    50%{
+        height: 600px;
+    }
+    100%{
+        height: 400px;
+    }
+}

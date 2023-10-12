@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    transition-duration: 5s;
+    /* text-align: center; */
+}
+
+h1:hover{
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+    /* transform: translate(100px , 100px); */
+    /* transform: translate(30px , 30px); */
+
+    /* transform:rotateX(90deg); */
+    /* transform:rotateY(180deg); */
+
+    /* transform: scaleX(1.2); */
+    /* transform: scaleX(0.5); */
+    /* transform: scaleY(0.5); */
+    transform: scaleY(1.5);
+
+}

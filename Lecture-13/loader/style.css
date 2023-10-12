@@ -1,0 +1,35 @@
+.loader{
+    width: 80px;
+    height: 80px;
+    border-top: 15px solid green;
+    border-right: 15px solid rgb(128, 32, 0);
+    border-bottom: 15px solid rgb(0, 9, 128);
+    border-left: 15px solid rgb(128, 0, 107);
+    border-radius: 50%;
+}
+
+.loader:hover{
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+/* @keyframes loading {
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+@keyframes loading {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(400px) rotate(180deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+}
